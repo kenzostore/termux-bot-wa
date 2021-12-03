@@ -87,14 +87,14 @@ const setting = JSON.parse(fs.readFileSync('./database/json/setting.json'))
 const bad = JSON.parse(fs.readFileSync('./database/json/bad.json'))
 const premium = JSON.parse(fs.readFileSync('./database/json/premium.json'))
 
-memberLimit = setting.memberlimit
-OwnerNumber = setting.OwnerNumber
-instagram = setting.instagram
-limitt = setting.limitt
-botinfo = setting.botinfo
-prefix = setting.prefix
-name = setting.name
-yt = setting.yt
+memberLimit = 50
+OwnerNumber = 62882007289925
+instagram = kenzo_st0re
+limitt = 1
+botinfo = Mas Ajas Ganteng
+prefix = !
+name = KenzStore
+yt = Nggk Punya Yt
 ban = []
 
 //function
